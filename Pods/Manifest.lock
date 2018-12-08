@@ -1,0 +1,20 @@
+PODS:
+  - HandyJSON (4.2.1)
+  - PureLayout (3.1.4)
+
+DEPENDENCIES:
+  - HandyJSON
+  - PureLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HandyJSON
+    - PureLayout
+
+SPEC CHECKSUMS:
+  HandyJSON: d0c5fc80204f29056d59d3e5c4587fa0b16b60a8
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+
+PODFILE CHECKSUM: 68ce4e4801d7d71fe6ed814cd105b520a4a747a0
+
+COCOAPODS: 1.5.3

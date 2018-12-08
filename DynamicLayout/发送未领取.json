@@ -1,0 +1,57 @@
+{
+    "type": "tempalte",
+  "title": "你收到一个红包",
+  "id": "{redEnvelopeId}",
+  "basewidth": 1080,
+  "target": {
+    "url": "RedPacket/envelope-detail.html",
+    "width": 0,
+    "height": 0
+  },
+  "width": 634,
+  "height": 230,
+  "background": {
+      "radius": 20,
+    "src": "redEvenlope_bg",
+    "pressed_src":"redEvenlope_bg_selected"
+  },
+  "child": [
+    {
+        "background": {
+            "color": "#000000",
+            "pressed_color": "#FFF000"
+        },
+      "src": "/redpack/img/redpack_icon.png",
+      "width": 93,
+      "height": 104,
+      "left": 58,
+      "top":35
+    },
+    {
+      "text": "红包留言",
+      "left": 196,
+      "top": 37,
+      "color": "#FFFFFF",
+      "size": 46, 
+      "Bold": true
+    },
+    {
+        "background": {
+            "color": "#336600",
+            "pressed_color": "#FFF000"
+        },
+      "text": "查看红包",
+      "top": 101,
+      "left": 196,
+      "color": "#FFFFFF",
+      "size": 35
+    },
+    {
+      "text": "AVA Walt",
+      "bottom": 12,
+      "left": 58,
+      "color": "#000000",
+      "size": 35
+    }
+  ]
+}
