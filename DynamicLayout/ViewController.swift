@@ -32,6 +32,7 @@ class ViewController: UIViewController, TemplateElementDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        test().test()
         
         ResourcesManager.shared.startFetchOrVerifyResources()
         
@@ -80,6 +81,8 @@ class ViewController: UIViewController, TemplateElementDelegate {
         
         let path = Bundle.main.path(forResource: "发送未领取", ofType: "json")
         let json = try! String.init(contentsOf: URL(fileURLWithPath: path!))
+        
+        
         
         let model = TemplateModel.deserialize(from: json)
         self.templateElement = TemplateElement.init(withTemplateModel: model!, superView: self.view)

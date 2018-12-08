@@ -10,6 +10,7 @@
 #define Swift_Bridging_Header_h
 
 #import "SSZipArchive.h"
+#import "test.h"
 //#import <CommonCrypto/CommonCrypto.h>
 
 #endif /* Swift_Bridging_Header_h */

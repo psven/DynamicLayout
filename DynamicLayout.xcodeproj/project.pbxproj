@@ -27,6 +27,9 @@
 		2F24732E21BA655A00387341 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F24731821BA655900387341 /* aestab.c */; };
 		2F24732F21BA655A00387341 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F24731D21BA655900387341 /* SSZipArchive.m */; };
 		2F24733621BB7C5900387341 /* ResourcesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24733521BB7C5900387341 /* ResourcesManager.swift */; };
+		2F52CFE221BBC34200693DBC /* NSString+Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F52CFE121BBC34200693DBC /* NSString+Planet.swift */; };
+		2F52CFE521BBC7E100693DBC /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F52CFE421BBC7E100693DBC /* test.m */; };
+		2F52CFEB21BBD40500693DBC /* json.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F52CFEA21BBD40500693DBC /* json.json */; };
 		2FCC12E021B8BB6000FA7F6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC12DF21B8BB6000FA7F6F /* AppDelegate.swift */; };
 		2FCC12E221B8BB6000FA7F6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC12E121B8BB6000FA7F6F /* ViewController.swift */; };
 		2FCC12E521B8BB6000FA7F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC12E321B8BB6000FA7F6F /* Main.storyboard */; };
@@ -102,6 +105,10 @@
 		2F24731D21BA655900387341 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
 		2F24731E21BA655900387341 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F24733521BB7C5900387341 /* ResourcesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesManager.swift; sourceTree = "<group>"; };
+		2F52CFE121BBC34200693DBC /* NSString+Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Planet.swift"; sourceTree = "<group>"; };
+		2F52CFE421BBC7E100693DBC /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		2F52CFE721BBD21D00693DBC /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		2F52CFEA21BBD40500693DBC /* json.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = json.json; sourceTree = "<group>"; };
 		2FCC12DC21B8BB6000FA7F6F /* DynamicLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FCC12DF21B8BB6000FA7F6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FCC12E121B8BB6000FA7F6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -245,11 +252,15 @@
 			children = (
 				2FCC12DF21B8BB6000FA7F6F /* AppDelegate.swift */,
 				2FCC12E121B8BB6000FA7F6F /* ViewController.swift */,
+				2F52CFE721BBD21D00693DBC /* test.h */,
+				2F52CFE421BBC7E100693DBC /* test.m */,
 				2FCC12E321B8BB6000FA7F6F /* Main.storyboard */,
 				2FCC12E621B8BB6100FA7F6F /* Assets.xcassets */,
 				2FCC12E821B8BB6100FA7F6F /* LaunchScreen.storyboard */,
 				2FCC12EB21B8BB6100FA7F6F /* Info.plist */,
 				2FCC130D21B8BB9500FA7F6F /* 发送未领取.json */,
+				2F52CFEA21BBD40500693DBC /* json.json */,
+				2F52CFE121BBC34200693DBC /* NSString+Planet.swift */,
 				2FCC130F21B8D2FE00FA7F6F /* TemplateModel.swift */,
 				2FCC131121B8D3D300FA7F6F /* TemplateElement.swift */,
 				2F2472AD21BA59C700387341 /* ResourcesHandler.swift */,
@@ -413,6 +424,7 @@
 				2FCC12E721B8BB6100FA7F6F /* Assets.xcassets in Resources */,
 				2FCC130E21B8BB9500FA7F6F /* 发送未领取.json in Resources */,
 				2FCC12E521B8BB6000FA7F6F /* Main.storyboard in Resources */,
+				2F52CFEB21BBD40500693DBC /* json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +533,7 @@
 				2F24732B21BA655A00387341 /* aes_ni.c in Sources */,
 				2F24731F21BA655A00387341 /* crypt.c in Sources */,
 				2F24732121BA655A00387341 /* zip.c in Sources */,
+				2F52CFE221BBC34200693DBC /* NSString+Planet.swift in Sources */,
 				2F24732421BA655A00387341 /* ioapi_mem.c in Sources */,
 				2F24732021BA655A00387341 /* unzip.c in Sources */,
 				2F24732C21BA655A00387341 /* prng.c in Sources */,
@@ -533,6 +546,7 @@
 				2FCC12E021B8BB6000FA7F6F /* AppDelegate.swift in Sources */,
 				2F24733621BB7C5900387341 /* ResourcesManager.swift in Sources */,
 				2F24732E21BA655A00387341 /* aestab.c in Sources */,
+				2F52CFE521BBC7E100693DBC /* test.m in Sources */,
 				2F24732D21BA655A00387341 /* pwd2key.c in Sources */,
 				2F24732621BA655A00387341 /* aeskey.c in Sources */,
 				2F24732821BA655A00387341 /* aescrypt.c in Sources */,
